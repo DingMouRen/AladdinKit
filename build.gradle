@@ -2,7 +2,8 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
 }
-
+group = 'com.github.DingMouRen'
+version = '1.0'
 android {
     compileSdk 31
 
@@ -60,8 +61,8 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.dingmouren.tools'
-                artifactId = 'aladdinkit'
+                groupId = 'com.github.DingMouRen'
+                artifactId = 'AladdinKit'
                 version = '1.0'
             }
         }
