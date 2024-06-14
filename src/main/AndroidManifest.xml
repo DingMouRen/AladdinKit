@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dingmouren.aladdinkit">
+    <application
+        >
+        <activity android:name=".ui.AdKitFunBoardActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.AdKitHostChangeActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.AdKitH5DebugToggleActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".ui.AdKitOkHttpLogActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+</manifest>

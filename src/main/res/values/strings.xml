@@ -1,0 +1,14 @@
+<resources>
+    <string name="lib_name">AladdinKit</string>
+    <!--切换环境-->
+    <string name="ak_host_add">添加新的测试环境</string>
+    <string name="ak_host_title">切换环境</string>
+    <string name="ak_host_dialog_add_host_title">请输入新的测试环境</string>
+    <string name="ak_h5_debug_title">H5调试</string>
+    <string name="ak_h5_debug_toggle_title">H5调试开关</string>
+    <string name="ak_h5_debug_toggle_desc">开启状态，可以查看H5页面的日志、网络请求、HTML节点树、存储（Cookies, LocalStorage, SessionStorage）</string>
+    <string name="ak_h5_debug_toggle_notice">使用H5调试模式，请先配置H5的host路由地址</string>
+    <string name="ak_okhttp_log_title">OkHttpLog悬浮窗开关</string>
+    <string name="ak_okhttp_log_toggle_title">OkHttpLog悬浮窗开关</string>
+    <string name="ak_okHttpLog_toggle_desc">开启状态，可以查看OkHttp请求日志信息。</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <include
+        layout="@layout/layout_adkit_title_bar"/>
+    <RelativeLayout
+        android:id="@+id/rlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="82dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/imgToggle"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ak_h5_debug_toggle_title"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ak_h5_debug_toggle_desc"
+                android:textSize="12sp"
+                android:textColor="@color/translucent_black_60"
+                android:layout_marginTop="8dp"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgToggle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ak_toggle_off"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:tint="@color/ak_c1"
+            />
+    </RelativeLayout>
+</LinearLayout>
